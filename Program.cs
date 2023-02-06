@@ -5,7 +5,7 @@
 12821 -> да
 23432 -> да*/
 
-/*Console.WriteLine("Задача №19");
+Console.WriteLine("Задача №19");
 Console.WriteLine("Введите пятизначное число: ");
 int Number = int.Parse(Console.ReadLine());
 int result = 0;
@@ -19,14 +19,14 @@ while (temp > 0)
 if (Number == result)
     Console.WriteLine("число является палиндромом");
     else
-    Console.WriteLine("число не является палиндромом");*/
+    Console.WriteLine("число не является палиндромом");
 /*Задача 21
 Напишите программу, которая принимает на вход координаты двух точек
  и находит расстояние между ними в 3D пространстве.
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
-/*Console.WriteLine("Задача №21");
+Console.WriteLine("Задача №21");
 Console.WriteLine("Введите координату точки A");
 Console.WriteLine("Координата x");
 double xA = double.Parse(Console.ReadLine());
@@ -45,7 +45,7 @@ double zB = double.Parse(Console.ReadLine());
 
 Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((xB-xA), 2)+Math.Pow((yB-yA), 2)+Math.Pow((zB-zA), 2))}");
  
- Задача 23
+ /*Задача 23
 Напишите программу, которая принимает на вход число (N) и выдаёт 
 таблицу кубов чисел от 1 до N.
 3 -> 1, 8, 27
